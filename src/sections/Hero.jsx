@@ -33,7 +33,7 @@ const Hero = () => {
                 <header className='flex flex-col justify-center md:w-full p-5 md:px-20'>
                     <div className='flex flex-col gap-7'>
                         <div className='hero-text'>
-                            <h1>Shapping 
+                            <h1>Shaping 
                                 <span className='slide'>
                                     <span className='wrapper'>
                                         {
@@ -54,9 +54,10 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                            Hi, I'm Devank, a passionate software engineer with a knack for crafting innovative solutions. 
+                            Hi, I'm <span className='font-extrabold'>Devank</span>, a passionate software engineer with a knack <br />
+                            for crafting innovative solutions. 
                             <br />
-                            I specialize in web and mobile app development, and I'm dedicated to transforming ideas into reality. 
+                            I specialize in web and mobile app development. 
                             <br />Let's connect and build something amazing together!
                         </p>
                         <Button 

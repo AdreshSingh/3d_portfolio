@@ -15,7 +15,7 @@ const HeroExperience = () => {
       <Particles count={100} />
       <OrbitControls
         enablePan={false}
-        enableZoom={!isTablet}
+        enableZoom={false}
         maxDistance={20}
         minDistance={5}
         minPolarAngle={Math.PI / 5}

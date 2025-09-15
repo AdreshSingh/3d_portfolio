@@ -15,11 +15,13 @@ export default function App() {
       <NavBar />
       <Hero />
       <Showcase />
-      <LogoSection />
+      {/* Not worked in more than 2 companies */}
+      {/* <LogoSection /> */}
       <FeatureCards />
       <ExperienceSection />
       <TechStack/>
-      <Testimonials />
+      {/* currently don't have so */}
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>

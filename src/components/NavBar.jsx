@@ -17,7 +17,7 @@ const NavBar = () => {
     })
   return (
     <header className={`navbar ${scrolled?'scrolled':'not-scrolled'}`}>
-      <div className="inner">
+      <div className="inner glass p-6 ">
         <a href="#hero" className="logo">
           Devank | All4One
         </a>

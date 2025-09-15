@@ -11,10 +11,10 @@ const navLinks = [
       name: "Skills",
       link: "#skills",
     },
-    {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
+    // {
+    //   name: "Testimonials",
+    //   link: "#testimonials",
+    // },
   ];
   
   const words = [
@@ -29,10 +29,12 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 1.7, suffix: "+", label: "Years of Experience" },
+    // { value: 200, suffix: "+", label: "Satisfied Clients" },
+    { value: 15, suffix: "+", label: "Completed Projects" },
+    // { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 7, suffix: "+", label: "frameworks" },
+    { value: 5, suffix: "+", label: "Proramming langauges" },
   ];
   
   const logoIconsList = [
@@ -248,18 +250,22 @@ const navLinks = [
     {
       name: "insta",
       imgPath: "/images/insta.png",
+      url:"https://www.linkedin.com/in/devank-singh-101k",
     },
     {
       name: "fb",
       imgPath: "/images/fb.png",
+      url:"https://www.linkedin.com/in/devank-singh-101k",
     },
     {
       name: "x",
       imgPath: "/images/x.png",
+      url:"https://www.linkedin.com/in/devank-singh-101k",
     },
     {
       name: "linkedin",
       imgPath: "/images/linkedin.png",
+      url:"https://www.linkedin.com/in/devank-singh-101k",
     },
   ];
   

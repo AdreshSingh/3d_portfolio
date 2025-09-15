@@ -117,6 +117,12 @@ section {
       @apply mx-auto flex items-center justify-between;
     }
 
+    .glass{
+      background: (255, 255, 255, 0.2);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+
     .logo {
       @apply text-white-50 text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105;
     }
